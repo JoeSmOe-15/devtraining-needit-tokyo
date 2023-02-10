@@ -46,7 +46,7 @@
 	
 	// if the isDateToday method returns true the When needed date is today 
 	if(isToday == true){
-		gs.addErrorMessage("You cannot submit NeedIt requests for today!");
+		gs.addErrorMessage("You cannot submit NeedIt requests for today.");
 		current.setAbortAction(true);
 	}
 	
